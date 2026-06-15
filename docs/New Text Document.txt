@@ -1,0 +1,13 @@
+Typical Project Deliverables:
+1. Source database assessment
+2. Migration architecture document
+3. Network connectivity setup
+4. RDS provisioning
+5. DMS replication instance deployment
+6. Endpoint configuration
+7. Full load execution
+8. CDC synchronization
+9. Data validation report
+10. Cutover plan
+11. Rollback plan
+12. Production migration sign-off
