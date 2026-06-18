@@ -45,7 +45,7 @@ This project demonstrates a complete, hands-on migration of a MariaDB database f
 GRANT ALL PRIVILEGES ON awsdms_control.* TO 'dms_user'@'%';
 GRANT ALL PRIVILEGES ON dms_test.* TO 'dms_user'@'%';
 FLUSH PRIVILEGES;
-
+```
 
 📸 Screenshots
 Database ERD
