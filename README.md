@@ -42,14 +42,12 @@ FLUSH PRIVILEGES;
 ```
 
 ## 📸 Screenshots
-Database ERD
-https://assets/screenshots/ERD.png
-
-DMS Migration Task Status
-https://assets/screenshots/migration-task-status.png
-
-Pre-Assessment Results After Fixes
-https://assets/screenshots/pre-assessment-result-after-fixation.png
+### Database ERD
+![ERD Diagram](./assets/screenshots/ERD.png)
+### DMS Migration Task Status
+![DMS Task Status](./assets/screenshots/migration-task-status.png)
+### Pre-Assessment Results After Fixes
+![Pre-Assessment Results](./assets/screenshots/pre-assessment-result-after-fixation.png)
 
 
 ## 🛠️ Technologies Used
