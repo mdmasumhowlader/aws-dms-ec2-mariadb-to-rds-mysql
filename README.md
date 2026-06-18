@@ -78,7 +78,7 @@ bash
 git clone https://github.com/mdmasumhowlader/aws-dms-ec2-mariadb-to-rds-mysql.git
 Review the Implementation Plan
 
-**Follow the Technical Guide** (./docs/DMS-EC2-MySQL-to-RDS.pdf)
+Follow the Technical Guide [`./docs/DMS-EC2-MySQL-to-RDS.pdf`](./docs/DMS-EC2-MySQL-to-RDS.pdf)
 
 Use the Database Schema for testing
 
