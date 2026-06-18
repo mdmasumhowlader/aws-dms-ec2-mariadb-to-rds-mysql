@@ -16,13 +16,8 @@ This project demonstrates a complete, hands-on migration of a MariaDB database f
 - **Portfolio Documentation:** This project includes a comprehensive implementation plan, a detailed step-by-step guide, and full database schema.
 
 ## 📊 Architecture
-┌─────────────────────┐ ┌─────────────────────┐ ┌─────────────────────┐
-│ │ │ │ │ │
-│ Source: EC2 │────▶│ AWS DMS │────▶│ Target: RDS │
-│ MariaDB:3306 │ │ Replication │ │ MySQL:3306 │
-│ │ │ Instance │ │ │
-│ │ │ │ │ │
-└─────────────────────┘ └─────────────────────┘ └─────────────────────┘
+
+Source: EC2 Instance (MariaDB:3306)  ────▶    AWS DMS (Replication)     ───▶    Target: RDS (MySQL:3306)                                         
 
 
 ## 🧭 Migration Phases
