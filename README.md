@@ -102,7 +102,7 @@ aws-dms-ec2-mariadb-to-rds-mysql/
 
 
 ## 🔗 Project Links
-- **Case Study:** [View on Portfolio](https://your-portfolio.com/projects/dms-migration.html)
+- **Case Study:** [View on Portfolio](https://portfolio.masumhowlader.com/projects/dms-migration.html)
 - **Implementation Plan:** [`./docs/DMS-Implementation-Plan.pdf`](./docs/DMS-Implementation-Plan.pdf)
 - **Project Overview:** [`./docs/DMS-Project-Overview.pdf`](./docs/DMS-Project-Overview.pdf)
 - **Technical Guide:** [`./docs/DMS-EC2-MySQL-to-RDS.pdf`](./docs/DMS-EC2-MySQL-to-RDS.pdf)
