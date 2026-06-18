@@ -15,13 +15,12 @@ This project demonstrates a complete, hands-on migration of a MariaDB database f
 - **Real-World Troubleshooting:** Documented a real challenge encountered: an "Access Denied" error on the `awsdms_control` database and its solution.
 - **Portfolio Documentation:** This project includes a comprehensive implementation plan, a detailed step-by-step guide, and full database schema.
 
-## 📊 Architecture
 
+## 📊 Architecture
 Source: EC2 Instance (MariaDB:3306)  ────▶    AWS DMS (Replication)     ───▶    Target: RDS (MySQL:3306)                                         
 
 
 ## 🧭 Migration Phases
-
 1.  **Phase 1: Environment Setup:** Provisioned EC2 (t3.medium, Amazon Linux 2023) and RDS MySQL (8.4.8, db.t3.micro) instances.
 2.  **Phase 2: Pre-Migration Configuration:** Configured binary logging on the source database and created DMS users with necessary privileges.
 3.  **Phase 3: Full Load Migration:** Initiated the DMS task to copy existing data to the target RDS database.
@@ -42,7 +41,7 @@ GRANT ALL PRIVILEGES ON dms_test.* TO 'dms_user'@'%';
 FLUSH PRIVILEGES;
 ```
 
-📸 Screenshots
+## 📸 Screenshots
 Database ERD
 https://assets/screenshots/ERD.png
 
@@ -53,7 +52,7 @@ Pre-Assessment Results After Fixes
 https://assets/screenshots/pre-assessment-result-after-fixation.png
 
 
-🛠️ Technologies Used
+## 🛠️ Technologies Used
 Cloud: Amazon Web Services (AWS)
 
 AWS Services: DMS, EC2, RDS, VPC, CloudWatch
@@ -62,8 +61,7 @@ Databases: MariaDB 10.5, MySQL 8.4.8
 
 Tools: bash, mysqlsh, AWS Management Console
 
-
-🚀 Getting Started
+## 🚀 Getting Started
 Prerequisites
 AWS Account with access to DMS, EC2, and RDS
 
@@ -73,7 +71,7 @@ MariaDB/MySQL familiarity
 
 
 
-Quick Start
+## Quick Start
 Clone this repository
 
 bash
@@ -85,7 +83,7 @@ Follow the Technical Guide
 Use the Database Schema for testing
 
 
-📂 Project Structure
+## 📂 Project Structure
 text
 aws-dms-ec2-mariadb-to-rds-mysql/
 ├── README.md                      # Project documentation
@@ -103,7 +101,7 @@ aws-dms-ec2-mariadb-to-rds-mysql/
         └── pre-assessment-result-after-fixation.png
 
 
-🔗 Project Links
+## 🔗 Project Links
 Case Study: View on Portfolio
 
 Implementation Plan: docs/DMS-Implementation-Plan.pdf
@@ -115,9 +113,8 @@ Technical Guide: docs/DMS-EC2-MySQL-to-RDS.pdf
 Database Schema: sql/database-schema.sql
 
 
-📝 License
+## 📝 License
 This project is licensed under the MIT License - see the LICENSE file for details.
-
 
 ⭐️ If you found this project helpful or interesting, please consider giving it a star on GitHub!
 Author: Md. Masum Howlader
