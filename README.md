@@ -82,7 +82,8 @@ Use the Database Schema for testing
 
 
 ## 📂 Project Structure
-text
+
+```
 aws-dms-ec2-mariadb-to-rds-mysql/
 ├── README.md                      # Project documentation
 ├── LICENSE                        # MIT License
@@ -97,6 +98,7 @@ aws-dms-ec2-mariadb-to-rds-mysql/
         ├── ERD.png
         ├── migration-task-status.png
         └── pre-assessment-result-after-fixation.png
+```
 
 
 ## 🔗 Project Links
